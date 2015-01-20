@@ -1,0 +1,136 @@
+#toolbar{
+    position:absolute;
+    left:0px;
+    top:0px;
+    height:60px;
+    width:100%;
+    background-color:#eaeaea;
+}
+#sections{
+    position:absolute;
+    top:60px;
+    left:0px;
+    width:100%;
+    height:60px;
+    border:solid 1px #eaeaea;
+}
+#sections div a:link{
+    text-decoration:none;
+    color:#777;
+}
+#sections div a:visited{
+    color:#777;
+}
+#sections div a:hover{
+    color:black;
+    cursor:pointer;
+}
+#logo{
+    height:56px;
+    width:95px;
+    margin-top:19px;
+    margin-left:10px;
+}
+#thelogo{
+    height:56px;
+    width:95px;
+}
+#toolbar div{
+    display:inline;
+    font-size:14px;
+    font-family:arial,sans-serif;
+    padding-right:15px;
+    margin-top:14px;
+}
+#user{
+    padding-top:5px;
+}
+#toolbar div a:link{
+    text-decoration:none;
+    color:#101010;
+}
+#toolbar div a:visited{
+    color:#101010;
+}
+#toolbar div a:hover{
+    cursor:pointer;
+    color:black;
+    text-decoration:underline;
+}
+#query{
+    width:560px;
+    height:26px;
+    position:absolute;
+    margin:0px;
+    margin-top:16px;
+    margin-left:20px;
+    padding:5px 9px 0;
+    border:solid 1px #4683ea;
+    border-radius:2px;
+    color:black;
+    font-size:16px;
+    font-color:black;
+    display:inline;
+    font-weight:normal;
+    font-family:Arial,sans-serif;
+}
+#userpic,#apps,#user,#notes{
+    float:right;
+}
+#pic{
+    height:32px;
+    width:32px;
+    border-radius:50%;
+}
+#sbutt{
+    position:absolute;
+    width:60px;
+    height:33px;
+    margin-left:550px;
+    margin-top:16px;
+    border: solid 1px #4683ea;
+    border-radius:2px;
+    display:inline;
+    background-color:#4683ea;
+    color:white;
+    font-weight:bold;
+}
+#sform{
+    display:inline;
+}
+#sections div{
+    display:inline-block;
+    height:60px;
+    line-height:37px;
+    margin-left:10px;
+    margin-right:4px;
+    min-width:54px;
+    padding:0px 0px;
+    text-align: center;
+    vertical-align: center;
+    margin-top:-29px;
+    font-size:12px;
+    position:relative;
+}
+#webs{
+    font-weight:300;
+    color:red;
+    border-bottom:solid 3px red;
+    padding-bottom:-5px;
+}
+#fill{
+    display:inline-block;
+    width:90px;
+}
+#sbuttons {
+    float:right;
+}
+#sbuttons div {
+    float:right;
+}
+#setter {
+    background-color:#eaeaea;
+    height:20px;
+    width:40px;
+}
+
